@@ -3,7 +3,6 @@ import 'package:beacon_flutter_mobapp/utils/images.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
-import 'package:share_plus/share_plus.dart';
 
 class NewIncidentReportReceiptScreen extends StatefulWidget {
   const NewIncidentReportReceiptScreen({Key? key}) : super(key: key);
@@ -198,7 +197,7 @@ class _NewIncidentReportReceiptScreenState extends State<NewIncidentReportReceip
                       ],
                     ),
                     onPressed: () {
-                      Share.share('Share Receipt');
+                      //Share.share('Share Receipt');
                     },
                   ),
                   const SizedBox(width: 15),

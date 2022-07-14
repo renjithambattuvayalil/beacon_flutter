@@ -5,7 +5,6 @@ import 'package:beacon_flutter_mobapp/notifications_list_screen.dart';
 import 'package:beacon_flutter_mobapp/penalties_list_screen.dart';
 import 'package:beacon_flutter_mobapp/profile_view_screen.dart';
 import 'package:beacon_flutter_mobapp/utils/images.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DashboardScreen extends StatelessWidget {
